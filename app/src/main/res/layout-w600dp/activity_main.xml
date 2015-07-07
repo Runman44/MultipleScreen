@@ -6,16 +6,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
-        android:text="NO LAYOUT FILE"
+        android:text="W600DP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/gty_grizzly_bear_jt_130818_16x9_992"/>
+        android:src="@drawable/gty_grizzly_bear_jt_130818_16x9_992" />
 
 </LinearLayout>
