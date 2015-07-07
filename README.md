@@ -91,9 +91,9 @@ res/layout-w600dp/main_activity.xml  # Multi-pane (any screen with 600dp availab
 If the available height is a concern for you, then you can do the same using the h<N>dp qualifier. Or, even combine the w<N>dp and h<N>dp qualifiers if you need to be really specific.
 
 So:
-res/layout-sw720dp/main_activity.xml - Everything that has 720dp width and above
-res/layout-w600dp/main_activity.xml  - Everything that has at least 600dp in width
-res/layout-h600dp/main_activity.xml  - Everything that has at least 600dp in height
+* res/layout-sw720dp/main_activity.xml - Everything that has 720dp width and above
+* res/layout-w600dp/main_activity.xml  - Everything that has at least 600dp in width
+* res/layout-h600dp/main_activity.xml  - Everything that has at least 600dp in height
 
 Notice that the second set is using the "available width" qualifier, w<N>dp. This way, one device may actually use both layouts, depending on the orientation of the screen (if the available width is at least 600dp in one orientation and less than 600dp in the other orientation).
 
